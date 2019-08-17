@@ -26,6 +26,5 @@ class Command(BaseCommand):
             args+=["-h",db_settings['HOST']]
         if 'PORT' in db_settings:
             args+=["-p",str(db_settings['PORT'])]
-        # PASSWORD
         args.append(db_settings['NAME'])
         subprocess.check_call(args)
