@@ -1,27 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
-https://pypi.org/project/django-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/django-postgres-dropdb.svg?longCache=True)](https://pypi.org/project/django-postgres-dropdb/)
-[![](https://img.shields.io/pypi/v/django-postgres-dropdb.svg?maxAge=3600)](https://pypi.org/project/django-postgres-dropdb/)
-[![Travis](https://api.travis-ci.org/andrewp-as-is/django-postgres-dropdb.py.svg?branch=master)](https://travis-ci.org/andrewp-as-is/django-postgres-dropdb.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/django-postgres-dropdb.svg?maxAge=3600)](https://pypi.org/project/django-postgres-dropdb/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/django-postgres-dropdb.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/django-postgres-dropdb.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install django-postgres-dropdb
 ```
-
-#### Commands
-command|`help`
--|-
-`python manage.py dropdb` |drop postgres database
-
-#### Executable modules
-usage|`__doc__`
--|-
-`python -m django_postgres_dropdb [alias]` |drop postgres database
 
 #### Examples
 example 1 - management command:
@@ -71,10 +60,10 @@ $ python -m django_postgres_dropdb
 $ python -m django_postgres_dropdb "default"
 ```
 
-#### Related projects
+#### Related
 +   [django-postgres-createdb](https://pypi.org/project/django-postgres-createdb/)
 +   [django-postgres-dropdb](https://pypi.org/project/django-postgres-dropdb/)
 
 <p align="center">
-    <a href="https://pypi.org/project/django-readme-generator/">django-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
